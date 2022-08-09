@@ -70,7 +70,7 @@ Figure (2): circuit connection
      
 ## Simulation
 
-I made short video for show the output 
+I made short video for show the output  [to see here ](https://youtu.be/_LIZAVPyHyI)
 
 
 #### The Code 
