@@ -1,4 +1,4 @@
-# Auto-Power-Off-and-On-Circuit
+# Latching-Power-Switch-Circuit-(Auto-Power-Off-and-ON-Circuit)
 
 
 ## Table of contents
