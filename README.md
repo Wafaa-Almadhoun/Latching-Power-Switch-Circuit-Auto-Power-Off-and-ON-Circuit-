@@ -45,18 +45,18 @@ Project is created with:
 	
 ## Components required
 
-    1. Arduino UNO
-    2. 1 x IRF4905 P-MOSFET
-    3. jumper wirs
-    4. 1 x 2N3904 Transistor BJT NPN
-    5. bettrey  6 V 
-    6. breadboard
-    7. Resistors:2x 220K Ohm, 2x 100K Ohm, 10K Ohm, and 220 Ohm
-    8. 2x Diodes 1N5819
-    9. Pushbutton  12x12x7
-   10. Vibration sensor module
-   11. Relay module One channel 5V-10A
-   12. LED 5mm 
+     1. Arduino UNO
+     2. 1 x IRF4905 P-MOSFET
+     3. jumper wirs
+     4. 1 x 2N3904 Transistor BJT NPN
+     5. bettrey  6 V 
+     6. breadboard
+     7. Resistors:2x 220K Ohm, 2x 100K Ohm, 10K Ohm, and 220 Ohm
+     8. 2x Diodes 1N5819
+     9. Pushbutton  12x12x7
+    10. Vibration sensor module
+    11. Relay module One channel 5V-10A
+    12. LED 5mm 
     
 
     
