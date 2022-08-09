@@ -11,7 +11,12 @@
 
 
 ## Introduction
-
+    
+    This project allows you to cut off power completely when the microcontroller is not executing any task. 
+    In other words, as soon as the microcontroller finishes executing a task it turns itself off via software ,
+    after that you can power on the circuit if detects any input by sensors ,This is a great way to make batteries
+    last longer in your electronics projects.
+    
 
   
 
