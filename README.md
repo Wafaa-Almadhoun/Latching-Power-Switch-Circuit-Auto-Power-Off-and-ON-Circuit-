@@ -19,7 +19,24 @@
     last longer in your electronics projects.
     
 ## Overview
+
+      *  When you press the circuit’s pushbutton , there is power driven to the microcontroller. So, your Arduino turn on.
+ 
+      *  You set the LATCH pin (set in the code) to HIGH to keep the circuit powered on.
+ 
+      *  The microcontroller executes its tasks. In our example, the LED blink 3 times then waits 15 seconds.
   
+      *  Set the LATCH pin to LOW, so the microcontroller auto powers off .
+  
+      *  When the LATCH pin is set to LOW, the power is cut off.
+
+      *  while if there any inputs by the sensor in our case vibration sensor the circuit turn on the Arduino 
+          and repet the steps back again .
+   
+
+
+
+
 
 
 ## Technologies
