@@ -7,7 +7,7 @@
 * [Technologies](#technologies)
 * [Components required](#Components-required)
 * [Connections](#Connections)
-* [Block diagram & simulation ](#Block-diagram-&-simulation)
+* [Simulation ](#simulation)
 
 
 
@@ -68,7 +68,9 @@ Figure (1): circuit connection
 ![real circuit](https://user-images.githubusercontent.com/64277741/183540015-e4d828d8-7902-4c58-b0f3-c5e95596a806.jpg)
 Figure (2): circuit connection
      
-## Block diagram & simulation
+## Simulation
+
+I made short video for show the output 
 
 
 #### The Code 
