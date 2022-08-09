@@ -62,7 +62,8 @@ Project is created with:
     
 ## Connections
 
-![on off circuit ](https://user-images.githubusercontent.com/64277741/183539294-c2312cfe-bf5b-4582-b91c-a00b88ee2394.png)
+![Fritzing_bb](https://user-images.githubusercontent.com/64277741/183543889-9688e3a1-882f-4789-94d7-627acc1c9e2e.png)
+
 Figure (1): circuit connection
 
 ![real circuit](https://user-images.githubusercontent.com/64277741/183540015-e4d828d8-7902-4c58-b0f3-c5e95596a806.jpg)
