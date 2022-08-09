@@ -42,79 +42,31 @@
 ## Technologies
 Project is created with:
 * Arduino IDE 1.8.19 [To Downloud](https://www.arduino.cc/en/software)
-* Proteus [To Downloud](https://www.labcenter.com/simulation/)
 	
 ## Components required
-### 1. Unipolar Stepper with ULN2003 
+
     1. Arduino UNO
-    2. 1 – 28BYJ-48 Unipolar Stepper
+    2. 1 x IRF4905 P-MOSFET
     3. jumper wirs
-    4. driver board ULN2003
-    5. bettrey  5 and 12 volt 
+    4. 1 x 2N3904 Transistor BJT NPN
+    5. bettrey  6 V 
     6. breadboard
+    7. Resistors:2x 220K Ohm, 2x 100K Ohm, 10K Ohm, and 220 Ohm
+    8. 2x Diodes 1N5819
+    9. Pushbutton  12x12x7
+   10. Vibration sensor module
+   11. Relay module One channel 5V-10A
+   12. LED 5mm 
     
-### 2. Bipolar Stepper with L293D Motor Driver IC
-    1. Arduino UNO
-    2. 1  NEMA 17 bipolar stepper
-    3. jumper wirs
-    4. L293D Motor Driver IC
-    5. bettrey  5 and 12 volt 
-    6. breadboard
-    
-### 3. BIG Stepper Motors NEMA 23 Bipolar with DM860A Microstep Driver .
-    1. Arduino UNO
-    2. 1  NEMA 23 bipolar stepper
-    3. jumper wirs
-    4. DM860A Microstep Driver
-    5. bettrey 24 volt 
-    6. breadboard
-    7. push button 
-    8. 10 k ohm
-    9. potentiometer
+
     
 ## Connections
 
-### 1. Unipolar Stepper with ULN2003
+![on off circuit ](https://user-images.githubusercontent.com/64277741/183539294-c2312cfe-bf5b-4582-b91c-a00b88ee2394.png)
+Figure (1): circuit connection
 
-     connecting ULN2003 pin1 to pin 8 in Ardunio
-     connecting ULN2003 pin2 to pin 9 in Ardunio
-     connecting ULN2003 pin3 to pin 10 in Ardunio
-     connecting ULN2003 pin4 to pin 11 in Ardunio
-     connecting ULN2003 pin16 to pin1 in stepper
-     connecting ULN2003 pin15 to pin2 in stepper
-     connecting ULN2003 pin14 to pin3 in stepper
-     connecting ULN2003 pin13 to pin4 in stepper
-     connecting ULN2003 pin9 and the 2 2VDD pin in stepper motor to 12v battery 
-     Connect ground to ground
-     
- ### 2. Bipolar Stepper with L293D Motor Driver IC
- 
-    connecting 5V output on Arduino to the Vcc2 & Vcc1 pins
-    
-    Connect ground to ground.
-    
-    connect the input pins(IN1, IN2, IN3 and IN4) of the L293D IC to 
-    
-    four digital output pins(12, 11, 10 and 9) on Arduino
-    0ne coil of stepper moter connecting to Out1 & Out2 and the anthor coil connecting to Out3 & Out4
-    
- 
- ### 3. BIG Stepper Motors NEMA 23 Bipolar with DM860A Microstep Driver 
- 
-     connecting pin6 in Ardunio to -DIR in DM860A 
-     connecting pin7 in Ardunio to -PUL in DM860A
-     connecting +5v output in Ardunio to +PUL & +DIR in DM860A
-     connecting pin2 in Ardunio to one side of push button and also the 10 K ohm resistor connection up to the +5v on the arduino 
-     connecting GND in Ardunio to the other side of push button
-     connecting GND in Ardunio to the one side of potentiometer
-     connecting +5v in Ardunio to the other side of potentiometer
-     connecting pin A0 in Ardunio to the signal of potentiometer
-     connecting the motor driver with 24v battery
-     connecting the pin A+ driver with A+ in DM860A
-     connecting the pin A- driver with A- in DM860A
-     connecting the pin B+ driver with B+ in DM860A
-     connecting the pin B- driver with B- in DM860A
-
+![real circuit](https://user-images.githubusercontent.com/64277741/183540015-e4d828d8-7902-4c58-b0f3-c5e95596a806.jpg)
+Figure (2): circuit connection
      
 ## Block diagram & simulation
 ### 1. Unipolar Stepper with ULN2003 . [see here](https://github.com/Wafaa-Almadhoun/Stepper-motor-using-Arduino-UNO-R3-/blob/main/stepper%20using%20ULN2003.pdsprj)
